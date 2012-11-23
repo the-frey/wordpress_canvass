@@ -20,12 +20,15 @@
 			
 			<?php edit_post_link('Edit this entry','','.'); ?>
 			
+			<br />
+				<h2><a href="http://www.alphamaleteaparty.com/wordpress/" title="Back to Blog">Back to Blog</a></h2>
+			<br />
+			
 		</div>
 
 	<?php comments_template(); ?>
 
 	<?php endwhile; endif; ?>
-	
-<?php get_sidebar(); ?>
+
 
 <?php get_footer(); ?>

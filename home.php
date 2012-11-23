@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta description="" />
 
-    <title></title>
+    <title>Alpha Male Tea Party</title>
 
  	<link rel="shortcut icon" href="images/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -30,21 +30,57 @@
 <body>
 <div id="wrapper">
 	<div id="insideWrapper">
-		
+
+		<!-- logo goes here - put band name in h1-->
+		<div id="logo">
+			<h1>Alpha Male Tea Party</h1>
+		</div>
+
+		<!-- links section -->
 		<nav id="navContainer">
 			<ul id="mainNav">
-				
+				<li><a href="#">BLOG</a></li>
+				<li><a href="#">BIO</a></li>
+				<li><a href="#">PRESS AREA</a></li>
+			</ul>
+			<br />
+			<ul id="socialLinks">
+				<li><a href="http://twitter.com/alphamaleTparty">TWATTER</a></li>
+				<li><a href="http://www.facebook.com/alphamaleteaparty#">FACEPLACE</a></li>
 			</ul>
 		</nav>
+		<br />
 
+		<!-- second row of page -->
 		<div class="content">
-			
+
+			<!-- left column, row 1-->
+			<div class="leftCol">
+				<h2 class="subHeader" id="party"></h2>
+			</div>
+
+			<!-- image connector or gutter div -->
+			<div class="arrow">
+			</div>
+
+			<!-- right column, row 1 -->
+			<div class="rightCol">
+				<h2 id="listen">Listen:</h2>
+
+				<!-- here's the audio player -->
+				<iframe width="300" height="355" style="position: relative; display: block; width: 300px; height: 355px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/album=2413102504/size=grande2/bgcol=FFFFFF/linkcol=9DFA00/transparent=true/" allowtransparency="true" frameborder="0"><a href="http://alphamaleteaparty.bandcamp.com/album/amtp">AMTP by alpha male tea party</a></iframe>
+			</div>
 		</div>
 	</div>
 
 	<footer>
 	</footer>
+
+	<!-- have you put in analytics? -->
 	
 </div>
+
+<!-- T-t-t-t-t-t-t-that's all, folks! -->
+
 </body>
 </html>

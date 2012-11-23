@@ -30,7 +30,7 @@
 		   ?>
 	</title>
 	
-	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="shortcut icon" href="http://www.alphamaleteaparty.com/wordpress/wp-content/themes/amtpboilerplate/images/favicon.ico">
 	
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	
@@ -64,6 +64,6 @@
 	<div id="page-wrap">
 
 		<div id="header">
-			<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
+			<h1><a href="http://www.alphamaleteaparty.com"><?php bloginfo('name'); ?></a></h1>
 			<div class="description"><?php bloginfo('description'); ?></div>
 		</div>

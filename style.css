@@ -7,6 +7,15 @@ Author URI: http://hipstersunite.co.uk
 Version: 1
 */
 
+/*******
+COLOURS:
+
+blue - 0 12 46
+orange - 253 86 5
+lime - 157 250 0
+
+******/
+
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -58,22 +67,304 @@ table {
 }
 
 /**************************
+FONTS
+**************************/
+
+@font-face {
+    font-family: 'PacificoRegular';
+    src: url('Pacifico-webfont.eot');
+    src: url('Pacifico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Pacifico-webfont.woff') format('woff'),
+         url('Pacifico-webfont.ttf') format('truetype'),
+         url('Pacifico-webfont.svg#PacificoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Lobster13Regular';
+    src: url('Lobster_1.3-webfont.eot');
+    src: url('Lobster_1.3-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Lobster_1.3-webfont.woff') format('woff'),
+         url('Lobster_1.3-webfont.ttf') format('truetype'),
+         url('Lobster_1.3-webfont.svg#Lobster13Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LeagueGothicRegular';
+    src: url('League_Gothic-webfont.eot');
+    src: url('League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('League_Gothic-webfont.woff') format('woff'),
+         url('League_Gothic-webfont.ttf') format('truetype'),
+         url('League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/**************************
 MEDIA QUERIES
 **************************/
 
-@media screen and (min-width: 940px) {
+@media screen and (min-width: 960px) {
+	#wrapper {
+		width:960px;
+		margin:0px auto;
+	}
+
+	#page-wrap {
+		width:960px;
+		margin:0px auto;
+	}
+
+	nav#navContainer {
+		width: 225px;
+		height: 69px;
+		margin: 0;
+		float: left;
+		padding: 15px 0px 0px 415px;
+	}
+
+	#logo {
+		float:left;
+		width:320px;
+		height:84px;
+		margin-left:-100px;
+	}
+
+	#mainNav {
+		font-size: 2em;
+	}
+
+	#socialLinks {
+		font-size: 2em;
+		clear:both;
+	}
+
+	.leftCol {
+		width: 570px;
+		height: 284px;
+		background:url('images/linebig.png') no-repeat;
+		margin: 10px auto;
+		float:left;
+		clear:left;
+	}
+
+	div.arrow {
+		width:50px;
+		height:160px;
+		float:left;
+		background: url('images/arrowweb2.png') no-repeat;
+	}
+
+	.rightCol {
+		float:left;
+		width:300px;
+		padding-left:20px;
+	}
+
+	h2#listen {
+		visibility: hidden;
+	}
+
+	#party {
+		padding-top:100px;
+		font-size: 4em;
+	}
+
+	#player {
+	}
 
 }
 
-@media screen and (min-width: 600px) and (max-width: 940px){
+@media screen and (min-width: 640px) and (max-width: 960px){
+	#wrapper {
+		width:640px;
+		margin:0px auto;
+	}
 
+	#page-wrap {
+		width:640px;
+		margin:0px auto;
+	}
+
+	nav#navContainer {
+		width: 295px;
+		height: 69px;
+		margin: 0;
+		float: left;
+		padding: 15px 0px 0px 55px;
+	}
+
+	#logo {
+		float:left;
+		width:320px;
+		height:84px;
+		margin-left:-40px;
+	}
+
+	#mainNav {
+		font-size: 2em;
+	}
+
+	#socialLinks {
+		font-size: 2em;
+		clear:both;
+	}
+
+	.leftCol {
+		width: 270px;
+		height: 134px;
+		background:url('images/linesm.png') no-repeat;
+		margin: 10px auto;
+		float:left;
+		clear:left;
+		margin-top: 29px;
+	}
+
+	div.arrow {
+		width:50px;
+		height:160px;
+		float:left;
+		background: url('images/arrowweb2.png') no-repeat;
+	}
+
+	.rightCol {
+		float:left;
+		width:300px;
+		padding-left:20px;
+	}
+
+	h2#listen {
+		visibility: hidden;
+	}
+
+	#party {
+		padding-top:103px;
+		font-size: 4em;
+		text-align: right;
+	}
+
+	#player {
+	}
 }
 
-@media screen and (min-width: 480px) and (max-width: 600px){
+@media screen and (min-width: 480px) and (max-width: 640px){
+	#wrapper {
+		width:480px;
+		margin:0px auto;
+	}
 
+	#page-wrap {
+		width:480px;
+		margin:0px auto;
+	}
+
+	nav#navContainer {
+		width:200px;
+		margin: 2px auto;
+		height:100%;
+	}
+
+	#logo {
+		margin: 0px auto;
+	}
+
+	#mainNav {
+		font-size: 2em;
+	}
+
+	#socialLinks {
+		font-size: 2em;
+		clear:both;
+	}
+
+	.leftCol {
+		width: 0px;
+		height: 0px;
+	}
+
+	.rightCol {
+		width: 300px;
+		margin: 2px auto;
+	}
+
+	h2#listen {
+		clear:both;
+		font-size: 3em;
+		width:220px;
+		margin: 20px auto;
+		padding-top:10px;
+		font-family: 'Lobster13Regular', Georgia, serif;
+		color:#FFF;
+		text-align:center;
+	}
+
+	#party {
+		visibility: hidden;
+	}
 }
 
 @media screen and (max-width: 480px){
+
+	#wrapper {
+		width:320px;
+		margin:0px auto;
+	}
+
+	#page-wrap {
+		width:320px;
+		margin:0px auto;
+	}
+
+	nav#navContainer {
+		width:200px;
+		margin: 2px auto;
+		height:100%;
+	}
+
+	#logo {
+		margin: 0px auto;
+	}
+
+	#mainNav {
+		font-size: 2em;
+	}
+
+	#socialLinks {
+		font-size: 2em;
+		clear:both;
+	}
+
+	.leftCol {
+		width: 0px;
+		height: 0px;
+	}
+
+	.rightCol {
+		width: 300px;
+		margin: 2px auto;
+	}
+
+	h2#listen {
+		clear:both;
+		font-size: 3em;
+		width:220px;
+		margin: 20px auto;
+		padding-top:10px;
+		font-family: 'Lobster13Regular', Georgia, serif;
+		color:#FFF;
+		text-align:center;
+	}
+
+	#party {
+		visibility: hidden;
+	}
+
 
 }
 
@@ -81,30 +372,162 @@ MEDIA QUERIES
 PAGE STYLES
 ********************************/
 
+html {
+	width: 100%;
+	height: 100%;
+	background: rgb(0,12,46);
+}
+
+body {
+
+}
+
 h1 { }
-h2 { }
+h2 { 
+
+}
 h3 { }
 
+#logo {
+	width:320px;
+	height: 84px;
+	background: url('images/AMTP_logosmgr.png') no-repeat;
+}
+
+#logo h1 {
+	visibility: hidden;
+}
+
 p { }
-a { }
-a:hover { } 
+
+/********************************
+LINKS AND NAV
+********************************/
+
+#socialLinks a {
+	font-family: 'LeagueGothicRegular', Helvetica, sans-serif;
+	text-decoration: none;
+	color: #FFF;
+	float: left;
+	margin-left: 5px;
+ }
+#socialLinks a:hover { 
+	text-decoration: none;
+	color: rgb(157, 250, 0);
+
+} 
+
+a {
+	font-family: 'LeagueGothicRegular', Helvetica, sans-serif;
+	text-decoration: none;
+	color: #FFF;
+	margin-left: 5px;
+ }
+
+ a:hover { 
+	text-decoration: none;
+	color: rgb(157, 250, 0);
+
+} 
+
+#mainNav li a {
+	color: rgb(157, 250, 0);
+	float:left;
+}
+
+#mainNav li a:hover {
+	color: #FFF;
+}
 
 blockquote { }
 blockquote p { }
 
 ul, ol { }
 
+/********************************
+CONTENT AND POSTS
+********************************/
+
+#header h1 {
+	font-size: 4em;
+	clear:both;
+	text-align:center;
+	float:none;
+}
+
+.post h2 a {
+	font-size: 1.5em;
+	font-family: 'Lobster13Regular', georgia, serif;
+	clear:both;
+	text-align:center;
+	float:none;
+}
+
+.post h2 {
+	border-bottom: 1px solid #FFF;	
+	width:80%;
+	margin:5px auto;
+	font-size: 2em;
+	font-family: 'Lobster13Regular', georgia, serif;
+	clear:both;
+	color:#FFF;
+	text-align:center;
+}
+
+h2.subHeader { 
+	font-family: 'Lobster13Regular', Georgia, serif;
+	color:#FFF;
+	font-size: 3em;
+}
+
 .post { }
 
-.entry { }
+.entry { 
+	clear:both;
+	margin: 20px 5px;
+}
+
+.entry p {
+	color:#FFF;
+	font-family: helvetica, sans-serif;
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+
+div#footer {
+	bottom:0px;
+	color:#FFF;
+	font-family:helvetica, sans-serif;
+	padding: 5px auto;
+	margin:5px 0px;
+}
+
 .entry a { }
 .entry a:hover { }
 
 pre { }
 code, tt { }
 
-#meta { }
-.postmetadata { }
+.meta { 
+	color: #FFF;
+	font-family: helvetica, sans-serif;
+	visibility: hidden;
+}
+.postmetadata { 
+	color:#FFF;
+	font-family: helvetica, sans-serif;
+}
+
+#respond h2 {
+	font-family: helvetica, sans-serif;
+	color: #FFF;
+}
+
+
+#respond p {
+	font-family: helvetica, sans-serif;
+	color: #FFF;
+}
 
 #sidebar { }
 
