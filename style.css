@@ -456,7 +456,6 @@ CONTENT AND POSTS
 }
 
 .post h2 a {
-	font-size: 1.5em;
 	font-family: 'Lobster13Regular', georgia, serif;
 	clear:both;
 	text-align:center;
@@ -527,6 +526,21 @@ code, tt { }
 #respond p {
 	font-family: helvetica, sans-serif;
 	color: #FFF;
+}
+
+img.alignleft {
+	float:left;
+	padding:10px 10px 10px 0px;
+}
+
+img.aligncenter {
+	text-align:center;
+	padding:10px;
+}
+
+img.alignright {
+	float:right;
+	padding:10px 0px 10px 10px;
 }
 
 #sidebar { }
