@@ -126,14 +126,14 @@ MEDIA QUERIES
 		height: 69px;
 		margin: 0;
 		float: left;
-		padding: 15px 0px 0px 415px;
+		padding: 15px 0px 0px 315px;
 	}
 
 	#logo {
 		float:left;
 		width:320px;
 		height:84px;
-		margin-left:-100px;
+		margin-left:0px;
 	}
 
 	#mainNav {
@@ -684,6 +684,13 @@ code, tt { }
 #respond p {
 	font-family: helvetica, sans-serif;
 	color: #FFF;
+}
+
+#fourOhFour {
+	font-family: helvetica, sans-serif;
+	font-size:1.2em;
+	color: #FFF;
+	text-align: center;
 }
 
 img.alignleft {
