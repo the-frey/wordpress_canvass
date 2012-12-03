@@ -67,3 +67,18 @@
 			<h1><a href="http://www.alphamaleteaparty.com"><?php bloginfo('name'); ?></a></h1>
 			<div class="description"><?php bloginfo('description'); ?></div>
 		</div>
+		<!-- links section -->
+		<nav id="blogNavContainer">
+			<ul id="blogMainNav">
+				<li><a href="wordpress/">BLOG</a></li>
+				<li><a href="wordpress/bio/">BIO</a></li>
+				<li><a href="wordpress/press/">PRESS AREA</a></li>
+				<li><a href="http://www.songkick.com/artists/3943246-alpha-male-tea-party">GIGS</a></li>
+			</ul>
+			<br id="navBr" />
+			<ul id="blogSocialLinks">
+				<li><a href="http://twitter.com/alphamaleTparty">TWATTER</a></li>
+				<li><a href="http://www.facebook.com/alphamaleteaparty#">FACEPLACE</a></li>
+			</ul>
+		</nav>
+		<br id="navEndBr" />
