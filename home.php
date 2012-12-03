@@ -7,11 +7,11 @@
 
     <title>Alpha Male Tea Party</title>
 
- 	<link rel="shortcut icon" href="images/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="style.css">
+ 	<link rel="shortcut icon" href="wordpress/wp-content/themes/amtpboilerplate/images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="wordpress/wp-content/themes/amtpboilerplate/style.css" />
 
     <!--Here's jQuery -->
-    <script type="text/javascript" src="js/jquery-1.8.2.js"></script>
+    <script type="text/javascript" src="wordpress/wp-content/themes/amtpboilerplate/js/jquery-1.8.2.js"></script>
 
     <!--And here our erstwhile hero uses jQuery to wow and delight! -->
 
@@ -39,17 +39,18 @@
 		<!-- links section -->
 		<nav id="navContainer">
 			<ul id="mainNav">
-				<li><a href="#">BLOG</a></li>
-				<li><a href="#">BIO</a></li>
-				<li><a href="#">PRESS AREA</a></li>
+				<li><a href="wordpress/">BLOG</a></li>
+				<li><a href="wordpress/bio/">BIO</a></li>
+				<li><a href="wordpress/press/">PRESS AREA</a></li>
+				<li><a href="http://www.songkick.com/artists/3943246-alpha-male-tea-party">GIGS</a></li>
 			</ul>
-			<br />
+			<br id="navBr" />
 			<ul id="socialLinks">
 				<li><a href="http://twitter.com/alphamaleTparty">TWATTER</a></li>
 				<li><a href="http://www.facebook.com/alphamaleteaparty#">FACEPLACE</a></li>
 			</ul>
 		</nav>
-		<br />
+		<br id="navEndBr" />
 
 		<!-- second row of page -->
 		<div class="content">

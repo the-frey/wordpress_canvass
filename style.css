@@ -122,7 +122,7 @@ MEDIA QUERIES
 	}
 
 	nav#navContainer {
-		width: 225px;
+		width: 300px;
 		height: 69px;
 		margin: 0;
 		float: left;
@@ -140,9 +140,17 @@ MEDIA QUERIES
 		font-size: 2em;
 	}
 
+	#mainNav li a {
+		float:left;
+	}
+
 	#socialLinks {
 		font-size: 2em;
 		clear:both;
+	}
+
+	#socialLinks a {
+		float:left;
 	}
 
 	.leftCol {
@@ -211,9 +219,17 @@ MEDIA QUERIES
 		font-size: 2em;
 	}
 
+	#mainNav li a {
+		float:left;
+	}
+
 	#socialLinks {
 		font-size: 2em;
 		clear:both;
+	}
+
+	#socialLinks a {
+		float:left;
 	}
 
 	.leftCol {
@@ -265,9 +281,10 @@ MEDIA QUERIES
 	}
 
 	nav#navContainer {
-		width:200px;
+		width:300px;
 		margin: 2px auto;
 		height:100%;
+		line-height:0.7;
 	}
 
 	#logo {
@@ -276,11 +293,22 @@ MEDIA QUERIES
 
 	#mainNav {
 		font-size: 2em;
+		text-align:center;
+	}
+
+	#mainNav li {
+		display:inline;
+		text-align:center;
 	}
 
 	#socialLinks {
 		font-size: 2em;
 		clear:both;
+		text-align:center;
+	}
+
+	#socialLinks li {
+		display:inline;
 	}
 
 	.leftCol {
@@ -297,8 +325,8 @@ MEDIA QUERIES
 		clear:both;
 		font-size: 3em;
 		width:220px;
-		margin: 20px auto;
-		padding-top:10px;
+		margin: 0px auto 20px auto;
+		padding-top:0px;
 		font-family: 'Lobster13Regular', Georgia, serif;
 		color:#FFF;
 		text-align:center;
@@ -322,9 +350,10 @@ MEDIA QUERIES
 	}
 
 	nav#navContainer {
-		width:200px;
+		width:300px;
 		margin: 2px auto;
 		height:100%;
+		line-height:0.7;
 	}
 
 	#logo {
@@ -333,11 +362,22 @@ MEDIA QUERIES
 
 	#mainNav {
 		font-size: 2em;
+		text-align:center;
+	}
+
+	#mainNav li {
+		display:inline;
+		text-align:center;
 	}
 
 	#socialLinks {
 		font-size: 2em;
 		clear:both;
+		text-align:center;
+	}
+
+	#socialLinks li {
+		display:inline;
 	}
 
 	.leftCol {
@@ -354,8 +394,8 @@ MEDIA QUERIES
 		clear:both;
 		font-size: 3em;
 		width:220px;
-		margin: 20px auto;
-		padding-top:10px;
+		margin: 0px auto 20px auto;
+		padding-top:0px;
 		font-family: 'Lobster13Regular', Georgia, serif;
 		color:#FFF;
 		text-align:center;
@@ -364,8 +404,6 @@ MEDIA QUERIES
 	#party {
 		visibility: hidden;
 	}
-
-
 }
 
 /********************************
@@ -408,7 +446,6 @@ LINKS AND NAV
 	font-family: 'LeagueGothicRegular', Helvetica, sans-serif;
 	text-decoration: none;
 	color: #FFF;
-	float: left;
 	margin-left: 5px;
  }
 #socialLinks a:hover { 
@@ -432,7 +469,6 @@ a {
 
 #mainNav li a {
 	color: rgb(157, 250, 0);
-	float:left;
 }
 
 #mainNav li a:hover {
