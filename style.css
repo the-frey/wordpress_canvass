@@ -155,11 +155,12 @@ MEDIA QUERIES
 
 	.leftCol {
 		width: 570px;
-		height: 284px;
-		background:url('images/linebig.png') no-repeat;
+		height: 324px;
+		background:url('images/gtr_big.png') no-repeat;
 		margin: 10px auto;
 		float:left;
 		clear:left;
+		margin-top:40px;
 	}
 
 	div.arrow {
@@ -216,7 +217,7 @@ MEDIA QUERIES
 
 }
 
-@media screen and (min-width: 640px) and (max-width: 960px){
+@media screen and (min-width: 640px) and (max-width: 959px){
 	#wrapper {
 		width:640px;
 		margin:0px auto;
@@ -261,12 +262,12 @@ MEDIA QUERIES
 
 	.leftCol {
 		width: 270px;
-		height: 134px;
-		background:url('images/linesm.png') no-repeat;
+		height: 153px;
+		background:url('images/gtr_sm.png') no-repeat;
 		margin: 10px auto;
 		float:left;
 		clear:left;
-		margin-top: 29px;
+		margin-top: 105px;
 	}
 
 	div.arrow {
@@ -323,7 +324,7 @@ MEDIA QUERIES
 	}
 }
 
-@media screen and (min-width: 480px) and (max-width: 640px){
+@media screen and (min-width: 480px) and (max-width: 639px){
 	#wrapper {
 		width:480px;
 		margin:0px auto;
@@ -578,6 +579,7 @@ a {
 	font-family: 'LeagueGothicRegular', Helvetica, sans-serif;
 	text-decoration: none;
 	color: #FFF;
+	margin-left: 5px;
  }
 
  a:hover { 
@@ -745,6 +747,7 @@ ol.commentlist {
 
 .fn a {
 	color:rgb(157, 250, 0);
+	margin-left:0;
 }
 
 .fn a:hover {
@@ -754,6 +757,7 @@ ol.commentlist {
 .comment-meta a {
 	font-size:1.8em;
 	color:#666;
+	margin-left:0;
 }
 
 ol.commentlist li { }
