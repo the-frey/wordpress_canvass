@@ -514,6 +514,10 @@ MEDIA QUERIES
 	#blogSocialLinks li {
 		display:inline;
 	}
+
+	#header {
+		width:90%;
+	}
 }
 
 /********************************
@@ -528,6 +532,12 @@ html {
 
 body {
 
+}
+
+#page-wrap {
+	background: url('images/btex.png');
+	border-left: 2px dashed #FFF;
+	border-right: 2px dashed #FFF;
 }
 
 h1 { }
@@ -637,7 +647,9 @@ h2.subHeader {
 	font-size: 3em;
 }
 
-.post { }
+.post { 
+	padding:0px 15px;
+}
 
 .entry { 
 	clear:both;
@@ -657,6 +669,7 @@ div#footer {
 	font-family:helvetica, sans-serif;
 	padding: 5px auto;
 	margin:5px 0px;
+	padding-left:15px;
 }
 
 .entry a { }
