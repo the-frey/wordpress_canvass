@@ -578,7 +578,6 @@ a {
 	font-family: 'LeagueGothicRegular', Helvetica, sans-serif;
 	text-decoration: none;
 	color: #FFF;
-	margin-left: 5px;
  }
 
  a:hover { 
@@ -688,6 +687,11 @@ code, tt { }
 	font-family: helvetica, sans-serif;
 }
 
+#respond {
+	color: #FFF;
+	padding-left: 15px;
+}
+
 #respond h2 {
 	font-family: helvetica, sans-serif;
 	color: #FFF;
@@ -730,14 +734,34 @@ img.alignright {
 #searchform { }
 	#s { }
 	#searchsubmt { }
+
+/*********************COMMENTS***************************/
 	
-ol.commentlist { list-style: none; }
+ol.commentlist { 
+	list-style: none; 
+	font-family: helvetica, sans-serif;
+	color:rgb(10,0,34);
+}
+
+.fn a {
+	color:rgb(157, 250, 0);
+}
+
+.fn a:hover {
+	color:rgb(10,0,34);
+}
+
+.comment-meta a {
+	font-size:1.8em;
+	color:#666;
+}
+
 ol.commentlist li { }
 ol.commentlist li.alt { }
 ol.commentlist li.bypostauthor { }
 ol.commentlist li.byuser { }
 ol.commentlist li.comment-author-admin { }
-ol.commentlist li.comment { border-bottom: 1px dotted #666; padding: 10px; }
+ol.commentlist li.comment { border-bottom: 1px dotted #666; padding: 15px; }
 ol.commentlist li.comment div.comment-author { }
 ol.commentlist li.comment div.vcard { }
 ol.commentlist li.comment div.vcard cite.fn { font-style: normal; }
@@ -748,7 +772,7 @@ ol.commentlist li.comment div.vcard img.photo { }
 ol.commentlist li.comment div.vcard span.says { }
 ol.commentlist li.comment div.commentmetadata { }
 ol.commentlist li.comment div.comment-meta { font-size: 10px; }
-ol.commentlist li.comment div.comment-meta a { color: #ccc; }
+ol.commentlist li.comment div.comment-meta a { color: #666; }
 ol.commentlist li.comment p { }
 ol.commentlist li.comment ul { }
 ol.commentlist li.comment div.reply { font-size: 11px; }
